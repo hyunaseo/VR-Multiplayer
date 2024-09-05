@@ -139,8 +139,6 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: 7e944f0ccb979483ebedc835696f501c, type: 2}
-  - {fileID: -393771525638875152, guid: f44374e71310a4cd1a0884db709f4fce, type: 2}
-  - {fileID: 11400000, guid: a27ec4a00d6cb4be6b33801a768f8842, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -162,6 +160,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.ALIVE.VRMultiplayer
+    Standalone: com.ALIVE.VR-Multiplayer
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -170,7 +169,7 @@ PlayerSettings:
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 32
-  AndroidTargetSdkVersion: 32
+  AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
   aotOptions: 
   stripEngineCode: 1
